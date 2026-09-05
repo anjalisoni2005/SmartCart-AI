@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartCart AI - AI-Powered Smart Shopping Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">🛍️ SmartCart <span>AI</span></div>
+    <p>AI-Powered Smart Shopping Assistant</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Shop smarter with AI</h1>
+      <p>Tell us what you need and get personalized product recommendations instantly.</p>
+    </section>
+
+    <section class="assistant-card">
+      <h2>🤖 Smart Shopping Assistant</h2>
+      <label for="need">What are you looking for?</label>
+      <textarea id="need" placeholder="Example: I need a budget laptop for coding and college..."></textarea>
+
+      <div class="controls">
+        <select id="budget">
+          <option value="any">Any budget</option>
+          <option value="low">Under ₹30,000</option>
+          <option value="mid">₹30,000–₹60,000</option>
+          <option value="high">Above ₹60,000</option>
+        </select>
+        <button id="recommendBtn">Get AI Recommendations</button>
+      </div>
+
+      <div id="status" class="status"></div>
+      <div id="results" class="results"></div>
+    </section>
+  </main>
+
+  <footer>SmartCart AI • Demo project for AI Growth & Agentic Commerce</footer>
+  <script src="script.js"></script>
+</body>
+</html>
